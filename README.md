@@ -25,7 +25,7 @@ This project consists of a frontend and a backend to display live arrivals board
 
 - **Backend**: The backend server listens for requests at /flights and expects an airport_code query parameter. It fetches flight data from the FlightAware API and returns it as JSON.
 
-### Project Structure
+## Project Structure
 
 - **Frontend**
 
@@ -41,7 +41,7 @@ This project consists of a frontend and a backend to display live arrivals board
 
 *flights/*: Directory containing the logic for interacting with the FlightAware API.
 
-### Error Handling
+## Error Handling
 
 - **Invalid IATA Code**: The frontend validates the IATA code and displays an error message if it's invalid.
 
