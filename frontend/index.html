@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Arrivals Board Project</title>
+    <link rel="icon" type="image/svg" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-title">
+        <img class="logo" src="images/logo.png" alt="arrivals-logo">
+        <div class="main-sub-title">
+            <h2>ARRIVALS BOARD</h2>
+            <p id="boardTitle"></p>
+            <p id="timeAtAirport"></p>
+        </div>
+    </div>
+    <div class="title-form">
+        <form id="airportCodeForm">
+            <div class="form__group field">
+                <input class="form__field" placeholder="LHR" type="text" id="airportCodeInput" name="airportCodeInput"
+                    minlength="3" maxlength="3" required pattern="[A-Za-z]+">
+                <label for="airportCodeInput" class="form__label">Insert a 3 letter IATA Code here (e.g. LHR)</label>
+            </div>
+            <button class="button" style="--clr:#ead920" type="submit" id="getFlightsButton"><span>Get Live
+                    Flights</span><i></i></button>
+        </form>
+    </div>
+
+
+
+    <div id="dataDisplay">
+        <!-- JSON data will be displayed here -->
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="node_modules/moment/moment.js"></script>
+    <script src="node_modules/moment-timezone/moment-timezone.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.41/moment-timezone-with-data-1970-2030.min.js"></script>
+</body>
+
+</html>

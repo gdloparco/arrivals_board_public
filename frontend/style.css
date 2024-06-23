@@ -1,0 +1,296 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#airportCodeForm {
+    margin-bottom: 20px;
+}
+
+#dataDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-title {
+    background-color: #000000;
+    border: #2d2d2d 4px solid;
+    color: #cba600;
+    padding: 0.3em 5em;
+    margin: 1em auto;
+    border-radius: 30px;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.main-sub-title {
+    display: block;
+    margin: auto 0;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+    border: #dabd3b solid 5px;
+    padding: 18px;
+    border-radius: 100px;
+    opacity: 74%;
+    filter: saturate(128%);
+    margin: 0.7em auto 0.7em 0;
+}
+
+.title-form {
+    text-align: center;
+    width: 80%;
+}
+
+button {
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    padding: 1.2rem 3.4rem;
+    transition: 0.2s;
+    margin: 3em auto 1em auto;
+}
+
+button:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.2rem 3.4rem;
+    background: var(--clr);
+    color: var(--clr);
+    /* box-shadow: 0 0 35px var(--clr); */
+    animation: box 3s infinite;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #272822;
+}
+
+.delayed-status {
+    color: rgb(177, 1, 1);
+    font-weight: 500;
+}
+
+button span {
+    position: relative;
+    z-index: 1;
+}
+
+button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+button i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 80%;
+    top: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+}
+
+button:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+}
+
+button i::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    bottom: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+}
+
+button:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes box {
+    0% {
+        box-shadow: #27272c;
+    }
+
+    50% {
+        box-shadow: 0 0 25px var(--clr);
+    }
+
+    100% {
+        box-shadow: #27272c;
+    }
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin: 10px;
+    width: 100%;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #efcb00;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #efcb00;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    text-align: center;
+
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #efcb00;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #c39105, #fff940);
+    border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #c39105;
+    font-weight: 700;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+/* demo */
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background-color: #222222;
+}
+
+
+.board-header {
+    background-color: #000000;
+    border: #2d2d2d 4px solid;
+    color: #c39105;
+    padding: 10px;
+    margin: 3px 10px;
+    border-radius: 5px;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    width: 90%;
+}
+
+.board-header p {
+    margin: 0;
+    padding: 0 10px;
+    flex: 1;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.flight-info {
+    background-color: #2d2d2d;
+    border: #000000 2px solid;
+    padding: 10px;
+    margin: 3px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.flight-info p {
+    margin: 0;
+    padding: 0 10px;
+    flex: 1;
+    text-align: left;
+    min-width: 2em;
+}
+
+.flight-info p:first-child {
+    font-weight: bold;
+}
+
+.error-message {
+    color: #c39105;
+    background-color: #2d2d2d;
+    border: #000000 2px solid;
+    padding: 0.4em 2em;
+    margin: 1.5em auto;
+    border-radius: 5px;
+    align-items: center;
+    width: 100%;
+}

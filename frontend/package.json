@@ -1,0 +1,15 @@
+{
+  "name": "11-arrivals_board_frontend",
+  "version": "1.0.0",
+  "description": "Frontend displaying arrivals board flights status",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.45"
+  }
+}

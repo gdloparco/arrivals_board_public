@@ -1,0 +1,254 @@
+[
+    {
+        "cancelled": false,
+        "ident_iata": "AA101",
+        "scheduled_in": "2024-04-06T17:00:00Z",
+        "estimated_in": "2024-04-06T16:05:03Z",
+        "actual_in": "",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "LHR",
+            "city": "London",
+            "name": "London Heathrow"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "B61002",
+        "scheduled_in": "2024-04-06T16:00:00Z",
+        "estimated_in": "2024-04-06T16:01:53Z",
+        "actual_in": "",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "FLL",
+            "city": "Fort Lauderdale",
+            "name": "Fort Lauderdale Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "DL1411",
+        "scheduled_in": "2024-04-06T16:08:00Z",
+        "estimated_in": "2024-04-06T15:55:00Z",
+        "actual_in": "",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "AUS",
+            "city": "Austin",
+            "name": "Austin-Bergstrom Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "9E5294",
+        "scheduled_in": "2024-04-06T16:09:00Z",
+        "estimated_in": "2024-04-06T15:58:00Z",
+        "actual_in": "2024-04-06T15:56:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "RDU",
+            "city": "Raleigh/Durham",
+            "name": "Raleigh-Durham Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "OO4109",
+        "scheduled_in": "2024-04-06T15:07:00Z",
+        "estimated_in": "2024-04-06T15:55:00Z",
+        "actual_in": "2024-04-06T15:49:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "ORD",
+            "city": "Chicago",
+            "name": "Chicago O'Hare Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "DL127",
+        "scheduled_in": "2024-04-06T16:30:00Z",
+        "estimated_in": "2024-04-06T15:51:23Z",
+        "actual_in": "2024-04-06T15:50:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "MAD",
+            "city": "Madrid",
+            "name": "Adolfo Suárez Madrid-Barajas"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "AA95",
+        "scheduled_in": "2024-04-06T16:25:00Z",
+        "estimated_in": "2024-04-06T15:49:00Z",
+        "actual_in": "2024-04-06T15:46:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "MAD",
+            "city": "Madrid",
+            "name": "Adolfo Suárez Madrid-Barajas"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "YX5834",
+        "scheduled_in": "2024-04-06T16:00:00Z",
+        "estimated_in": "2024-04-06T15:49:16Z",
+        "actual_in": "2024-04-06T15:44:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "BOS",
+            "city": "Boston",
+            "name": "Boston Logan Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "DL454",
+        "scheduled_in": "2024-04-06T16:03:00Z",
+        "estimated_in": "2024-04-06T15:42:00Z",
+        "actual_in": "2024-04-06T15:45:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "DFW",
+            "city": "Dallas-Fort Worth",
+            "name": "Dallas-Fort Worth Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "9E5244",
+        "scheduled_in": "2024-04-06T16:00:00Z",
+        "estimated_in": "2024-04-06T15:47:00Z",
+        "actual_in": "2024-04-06T15:43:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "DTW",
+            "city": "Detroit",
+            "name": "Detroit Metro Wayne Co"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "DL45",
+        "scheduled_in": "2024-04-06T16:40:00Z",
+        "estimated_in": "2024-04-06T15:44:00Z",
+        "actual_in": "2024-04-06T15:43:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "DUB",
+            "city": "Dublin",
+            "name": "Dublin Int'l"
+        }
+    },
+    {
+        "cancelled": true,
+        "ident_iata": "YX4588",
+        "scheduled_in": "2024-04-06T16:00:00Z",
+        "estimated_in": "2024-04-06T15:43:56Z",
+        "actual_in": "2024-04-06T15:41:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "CLE",
+            "city": "Cleveland",
+            "name": "Cleveland-Hopkins Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "AA2287",
+        "scheduled_in": "2024-04-06T16:04:00Z",
+        "estimated_in": "2024-04-06T15:42:40Z",
+        "actual_in": "2024-04-06T15:36:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "AUS",
+            "city": "Austin",
+            "name": "Austin-Bergstrom Intl"
+        }
+    },
+    {
+        "cancelled": false,
+        "ident_iata": "DL2380",
+        "scheduled_in": "2024-04-06T15:45:00Z",
+        "estimated_in": "2024-04-06T15:34:00Z",
+        "actual_in": "2024-04-06T15:32:00Z",
+        "destination": {
+            "code_iata": "JFK",
+            "city": "New York",
+            "name": "John F Kennedy Intl",
+            "timezone": "America/New_York"
+        },
+        "origin": {
+            "code_iata": "ATL",
+            "city": "Atlanta",
+            "name": "Hartsfield-Jackson Intl"
+        }
+    }
+]
